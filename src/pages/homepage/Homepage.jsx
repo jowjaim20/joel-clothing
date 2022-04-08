@@ -1,16 +1,10 @@
-import MenuItem from "../../components/menu-item/MenuItem";
+import Directory from "../../components/directory/Directory";
 import "./homepage.scss";
 
 const Homepage = () => {
   return (
     <div className="homepage">
-      <div className="directory-menu">
-        <MenuItem subtitle={"Shop now"} clothing={"HATS"} />
-        <MenuItem subtitle={"Shop now"} clothing={"Jackets"} />
-        <MenuItem subtitle={"Shop now"} clothing={"Sneakers"} />
-        <MenuItem subtitle={"Shop now"} clothing={"Womens"} />
-        <MenuItem subtitle={"Shop now"} clothing={"Mens"} />
-      </div>
+      <Directory />
     </div>
   );
 };
