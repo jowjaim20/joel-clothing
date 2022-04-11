@@ -11,6 +11,7 @@ import React from "react";
 function App() {
   return (
     <Router>
+      <h1>Joel cute</h1>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/directory" element={<MenuItemcopy />} />
